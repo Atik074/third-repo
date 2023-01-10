@@ -5,10 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github third repo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       .navbar{
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+    
+      
+       }
+       span a{
+        padding: 0px 10px;
+        margin: 0px 20px;
+        text-decoration: none;
+       }
+     .login-sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        
+
+     }
+     .login-form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 90px 0px;
+      
+        
+     }
+     input[type="email"], input[type="password"] {
+        padding:15px;
+        margin: 15px 0px;
+       border: 2px solid rgb(25, 62, 210);
+     }
+     input[type="submit"]{
+        padding:15px;
+        width:15%;
+        font-size: 20px;
+     
+        
+     }
+    
+    </style>
 </head>
 <body>
-    <h1>this is  my third github repo</h1>
-    <h2>i changed my design</h2>
-    <p>This is Tamanna Rahman</p>
+    <nav class="navbar">
+
+     <span class="item">
+        <a href="" class="items">Home</a>
+        <a href="" class="items">product</a>
+        <a href="" class="items">Buy</a>
+     </span>
+     <span>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+        
+        <a href="#" title="Log-in">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <a href="#" title="Log-out"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </a>
+     </span>
+    </nav>
+    <section class="login-sec">
+        <form action="" class="login-form">
+            <h2>please login from</h2>
+            <input type="email" name="" id="" required placeholder="type your email">
+            <input type="password" name="" id="" erquired placeholder="type your password">
+            <input type="submit" value="submit">
+        </form>
+    </section>
 </body>
 </html>
